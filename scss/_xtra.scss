@@ -1,0 +1,16 @@
+/*fade*/
+@keyframes basicfade{0%{opacity:0;}}
+.motion-fade {animation: basicfade 2s 1 ease both ;}
+/*visibility*/
+.invisible{opacity:0;}
+.visible{opacity:1;}
+
+@mixin verticle-c {
+position: relative;
+top: 50%;
+transform:translateY(-50%);
+}
+
+
+
+.h-800 {min-height: 800px;}
